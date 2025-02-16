@@ -80,6 +80,7 @@ public class MainActivity : MauiAppCompatActivity
 
     PaymentDataRequest createPaymentDataRequest(TransactionInfo transactionInfo)
     {
+        //https://developers.google.com/pay/api/web/guides/tutorial <== List of merchents
         var paramsBuilder = PaymentMethodTokenizationParameters.NewBuilder()
             .SetPaymentMethodTokenizationType(
             WalletConstants.PaymentMethodTokenizationTypePaymentGateway)
