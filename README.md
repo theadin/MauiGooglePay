@@ -2,4 +2,4 @@
 - MauiGooglePay.xaml.cs :point_right: PayBtn_Clicked
 - Platforms/Android/MainActivity.cs
 
-![Screenshot](./MauiGooglePay.jpg)
+![Screenshot](./MauiGooglePayScreenshot.jpg)
